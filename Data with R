@@ -1,0 +1,75 @@
+names <- c("IND","GBP",'USD','AED')
+names[c(1,3)]
+month.abb[c(3,4,2)]
+new_month <-'pluto'
+step_1 <-month.abb[c(1,2)]
+step_1
+step_2 <-new_month
+step_2
+step_3 <-month.abb[3:12]
+step_3
+new_months <-c(step_1,step_2,step_3)
+new_months
+names <- c("IND", "GBP", "USD", "AED")
+names1 <- "YEN"
+names1
+names2 <- c(names[1],names1,names[2:4])
+names2
+VECTORIZATION 
+
+fifth <-c(1:10)
+
+fifth * 5
+
+month.abb
+
+paste(month.abb,"is a terrible month")
+
+col1 <- c("Mon","Tue","Wed","Thu","Fri","Sat","Sun")
+
+col2 <- c(runif(7))
+
+something col2 <- col2
+library(ggplot2)
+ggplot (something) + geom_line (aes(x= col1, y= col2)), grouping(col1,col2)
+
+order <- c('low', 'medium', 'high')
+
+sort(order)
+
+o_levels <- c('low', 'medium', 'high')
+length(a_list)
+
+a_list[3][3:5]
+(a_list &lt;- list("abcd",123,1:12,month.abb))
+(a_list <- list("abcd",123,1:12,month.abb))
+
+new_m <- matrix(data = 1:12, nrow = 3)
+new_m
+
+A=matrix(data = 1,5,6,9,8,7,1,5,6, nrow = 3)
+A
+
+new_m <- matrix(data = 1:12, nrow = 4)
+
+A = matrix(data = c(1,5,6,9,8,7,1,5,6), nrow = 3)
+A
+
+colleges <- c("CIT","GCT","PSG")
+
+year <- c(2019,2018,2017)
+db <- data.frame(college_names = colleges, year_since = year)
+db
+row.names(mtcars)
+
+View(db)
+View(db)
+db$college_names[2]
+b <-iris[c(4,5)]
+b
+(tail(names(iris), 2))
+df <- iris
+View(df)
+df$ABC <- ( "Saturday" )
+day <- "Saturday"
+df$day <- day
